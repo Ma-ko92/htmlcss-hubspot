@@ -11,7 +11,9 @@ Body{
 /* TEST */
 .jumbotron{
     background-image: url("../img/jumbotron.png");
-    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 25px;
     height:600px;
 }
 .nav-top{
