@@ -8,3 +8,23 @@
 Body{
     font-family: 'Montserrat', sans-serif;
 }
+/* TEST */
+.jumbotron{
+    background-image: url("../img/jumbotron.png");
+    height:600px;
+}
+.nav-top{
+    background-color: #f4f9fd;
+    height: 65px;
+    border-bottom: 1px solid black;
+}
+.nav-bottom{
+    background-color:lightblue;
+    height: 65px;
+}
+.header-bottom-section{
+    background-color: #afebe4;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    height: 65px;
+}
