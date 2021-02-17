@@ -11,6 +11,7 @@ Body{
 /* TEST */
 .jumbotron{
     background-image: url("../img/jumbotron.png");
+    background-size: contain;
     height:600px;
 }
 .nav-top{
