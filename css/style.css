@@ -24,6 +24,7 @@ Body{
     clear: both;
 }
 
+/* HEADER */
 /* nav fixed */
 .nav-fixed{
     /* test */
@@ -148,6 +149,26 @@ h1{
     line-height: 25px;
 }
 /* jumbotron end*/
+/* HEADER END */
 
+/* MAIN */
+/* Section top */
+ .container-small{
+     width:60%;
+     margin: 0 auto;
+     position: relative;
+ }
 /* TEST */
+
+.sec-top{
+    background-color: #f4f9fd;
+    height: 650px;
+}
+.container-small img{
+    width:60px;
+    height: 60px;
+    text-align: center;
+}
+/* Section top end */
+/* MAIN END */
 
