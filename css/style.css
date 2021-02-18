@@ -117,6 +117,18 @@ Body{
     height: 600px;
     background-image: url("../img/jumbotron.png");
     background-position: 70% 10%;
+    position: relative;
+}
+.jumbotron::after{
+    content: "";
+    background-color: #afebe4;
+    border-top: 2px solid #33475b;
+    border-bottom: 2px solid #33475b;
+    height: 65px;
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    left: 0;
 }
 .teaser{
     width: 50%;
@@ -139,9 +151,3 @@ h1{
 
 /* TEST */
 
-.header-bottom-style{
-    background-color: #afebe4;
-    border-top: 2px solid #33475b;
-    border-bottom: 2px solid #33475b;
-    height: 65px;
-}
