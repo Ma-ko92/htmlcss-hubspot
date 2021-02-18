@@ -158,15 +158,14 @@ h1{
      margin: 0 auto;
      position: relative;
  }
-/* TEST */
-
 .sec-top{
     background-color: #f4f9fd;
     height: 650px;
 }
+/* TEST */
 .container-small img{
-    width:60px;
-    height: 60px;
+    width:70px;
+    height: 100%;
     text-align: center;
 }
 /* Section top end */
