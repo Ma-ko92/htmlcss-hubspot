@@ -4,30 +4,144 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/* COMMON */
 Body{
     font-family: 'Montserrat', sans-serif;
 }
-/* TEST */
-.jumbotron{
-    background-image: url("../img/jumbotron.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 0 25px;
-    height:600px;
+.img{
+    width:100%;
 }
-.nav-top{
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.col{
+    float: left;
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* nav fixed */
+.nav-fixed{
+    /* test */
+    /* display: none; */
     background-color: #f4f9fd;
     height: 65px;
     border-bottom: 1px solid black;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width:100%
 }
-.nav-bottom{
-    background-color:lightblue;
+.two-col{
+    width: 50%;
+}
+.right-col{
+    text-align: right;
+}
+.menu{
+    list-style-type: none;
+    margin: 23px 0px;
+}
+.menu li{
+    display: inline-block;
+}
+.icon{
+    margin-left: 10px;
+}
+.item{
+    padding-right: 15px;
+    margin-left: 5px;
+}
+.vr-item li:last-child{
+    border-left: 1px solid #33475b;
+    padding-left: 15px;
+    
+}
+.lang{
+    text-decoration: none;
+    color: #33475b;
+    font-size: 12px;
+    font-weight: 600;
+}
+.link-text{
+    text-decoration: none;
+    color: #33475b;
+    font-size: 12px;
+    font-weight: 600;
+    margin: 0px 5px;
+}
+/* Globe icon */
+.globe{
+    margin-right: 5px ;
+}
+.search-icon{
+    color: #23b0c6;
+}
+#log{
+    border: 1px solid #fe775a;
+    color:#fe775a;
+    padding: 5px 7px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.orange-button{
+    background-color:#fe775a ;
+    border: 1px solid #fe775a;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 10px;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 500;
+    color: white;
+}
+/* nav fixed  end*/
+
+/* nav menu */
+.nav-menu{
+    background-color: white;
     height: 65px;
 }
-.header-bottom-section{
+.logo{
+    padding: 17px 0px;
+}
+/* nav menu end*/
+
+/* jumbotron */
+.jumbotron{
+    width: 100%;
+    height: 600px;
+    background-image: url("../img/jumbotron.png");
+    background-position: 70% 10%;
+}
+.teaser{
+    width: 50%;
+    padding-top: 40px;
+}
+.teaser >*{
+    margin: 50px 0px;
+}
+h1{
+    color: #33475b;
+    font-size: 45px;
+}
+#teaser-button{
+    padding: 15px 25px;
+}
+.teaser > p{
+    line-height: 25px;
+}
+/* jumbotron end*/
+
+/* TEST */
+
+.header-bottom-style{
     background-color: #afebe4;
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
+    border-top: 2px solid #33475b;
+    border-bottom: 2px solid #33475b;
     height: 65px;
 }

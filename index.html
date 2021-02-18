@@ -12,34 +12,104 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
+
 <!-- BODY -->
 <body>
     <!-- HEADER -->
-    <Header class="header-bg">
-        <!-- Container -->
-        <div class="container"> 
-            <!-- nav -->
-            <nav class="nav-top">
-                test area
-            </nav>
+    <header>
+        <!-- Nav bar fixed -->
+        <nav class="nav-fixed clearfix">
+            <!-- container -->
+            <div class="container">
+                <div class="col two-col left-col">
+                    <ul class="menu vr-item">
+                        <li>
+                            <a class="lang" href="#"><i class="fas fa-globe-europe globe"></i>English<i class="fas fa-chevron-down item icon"></i></a> 
+                        </li>
 
-            <nav class="nav-bottom">
-                test area
-            </nav>
-
-            <div class="jumbotron">
-                <div class="teaser">
-                    test area
+                        <li>
+                            <a class="link-text" href="#">Contact Us</a>  
+                        </li>
+                    </ul>
                 </div>
 
-            </div>
-            <!-- nav end-->
-        </div>
-        <!-- Container end-->
-        <div class="header-bottom-section">
+                <div class="col two-col">
+                    <ul class="menu right-col">
+                        <li>
+                            <a class="link-text" href="#"><i class="fas fa-search search-icon icon"></i></a> 
+                        </li>
 
+                        <li>
+                            <a  class="link-text" id="log" href="#">Log In</a>  
+                        </li>
+
+                        <li>
+                            <a class="orange-button" href="#">GetHubSpotFree</a>  
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- container end -->
+        </nav>
+        <!-- Nav bar fixed  end-->  
+        
+        <!-- Nav menu -->
+        <nav class="nav-menu clearfix">
+            <div class="container">
+                <div class="col two-col">
+                    <img class="logo" src="img/logo.svg" alt="logo">
+                </div>
+
+                <div class="col two-col right-col">
+                    <ul class="menu">
+                        <li>
+                            <a  class="link-text"href="#">Software<i class="fas fa-chevron-down icon"></i></a>
+                        </li>
+                        <li>
+                            <a class="link-text" href="#">Pricing</a>
+                        </li>
+                        <li>
+                            <a class="link-text" href="#">Resources<i class="fas fa-chevron-down icon"></i></a>
+                        </li>
+                        <li>
+                            <a class="link-text" href="#">Partners<i class="fas fa-chevron-down icon"></i></a>
+                        </li>
+                        <li>
+                            <a class="link-text" href="#">About<i class="fas fa-chevron-down icon"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>  
+        <!-- Nav menu end -->
+
+        <!-- Jumbotron -->
+        <div class="jumbotron">
+            <!-- container -->
+           <div class="container">
+                <div class="teaser">
+                    <h1>
+                        There’s a better way to grow.
+                    </h1>
+                    <p class="link-text">
+                        Marketing, sales, and service software that helps your business grow without compromise. Because “good for the business” should also mean “good for the customer.”
+                    </p>
+                    <a id="teaser-button" class="orange-button" href="#">
+                        GetHubSpotFree
+                    </a>
+                    <p class="link-text">
+                        Get started with FREE tools, and upgrade as you grow.
+                    </p>
+                </div>
+           </div>
+           <!-- container end-->
         </div>
-    </Header>
+        <!-- Jumbotron end-->
+        
+        <!-- Header style section -->
+    <hr class="header-bottom-style">
+
+    </header>
     <!-- HEADER END-->
 </body>
 <!-- BODY END-->
