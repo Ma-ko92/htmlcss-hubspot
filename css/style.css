@@ -33,8 +33,6 @@ Body{
 /* HEADER */
 /* nav fixed */
 .nav-fixed{
-    /* test */
-    /* display: none; */
     background-color: #f4f9fd;
     height: 65px;
     border-bottom: 1px solid black;
@@ -71,7 +69,6 @@ Body{
 .vr-item li:last-child{
     border-left: 1px solid #33475b;
     padding-left: 15px;
-    
 }
 .lang{
     text-decoration: none;
@@ -172,6 +169,7 @@ h1{
 
 /* MAIN */
 /* Section top */
+/* first row */
 .container-small{
      width:60%;
      margin: 0 auto;
@@ -199,8 +197,9 @@ h2{
     margin-top: 20px;
     line-height: 20px;
 }
-/* TEST */
-.test{
+
+/* second row */
+.hub-crm{
     background-color: white;
     margin-top: 30px;
     border-radius: 5px;
@@ -208,19 +207,28 @@ h2{
 }
 .image-set{
     margin: auto;
-    width: 30%;
+    width: 35%;
     display: block;
 }
-.bg-test{
+.hub-crm-set{
     padding-top: 55px;
     padding-bottom: 20px;
     text-align: center;
 }
-.bg-wrap{
+.hub-crm-wrap{
     position: relative;
     text-align: left;
+    padding-right: 20%;
 }
-.bg-test img{
+.hub-crm-wrap::after{
+    width: 57%;
+    position: absolute;
+    content: '';
+    border-top: 1px solid #7c98b6;
+    top: 66%;
+    right:15%;
+}
+.hub-crm-set img{
     margin-bottom: 30px;
 }
 h3,
@@ -228,24 +236,22 @@ h5{
     color:  #33475b;
     text-align: center;
 }
-.bg-test p{
+.hub-crm-set p{
     margin-bottom: 10px;
     margin-top: 20px;
 }
-.bg-wrap > *{
+.hub-crm-wrap > *{
     text-align: left;
 }
 .check-circle{
     color: #fe775a;
     margin-right: 15px;
 }
-.bg-wrap::after{
-    width: 33%;
-    position: absolute;
-    content: '';
-    border-top: 1px solid #7c98b6;
-    top: 50%;
+/* third row */
+.three-col{
+    width: 30%;
 }
+/* TEST */
 
 /* Section top end */
 /* MAIN END */
