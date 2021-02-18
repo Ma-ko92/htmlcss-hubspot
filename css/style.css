@@ -164,9 +164,15 @@ h1{
 }
 /* TEST */
 .container-small img{
-    width:70px;
-    height: 100%;
-    text-align: center;
+    margin: auto;
+    width: 25%;
+    display: block;
+}
+.container-small div{
+    padding-top: 15%;
+}
+h2{
+    
 }
 /* Section top end */
 /* MAIN END */
