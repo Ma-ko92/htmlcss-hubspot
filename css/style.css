@@ -176,16 +176,14 @@ h1{
     position: relative;
     text-align: center;
 }
-.sec-top{
+.sec-up-dwn{
     background-color: #f4f9fd;
-}
-.container-small img{
-    margin: auto;
-    width: 25%;
-    display: block;
 }
 .top-sec{
     padding-top: 15%;
+}
+.top-sec img{
+    width:25%;
 }
 h2{
     color:  #33475b;
@@ -290,7 +288,6 @@ h5{
 /* Section top end */
 
 /* Section middle */
-/* first row */
 .sec-middle{
     background-image: linear-gradient(to right, rgb(78, 155, 255) , rgb(22, 236, 252));
 }
@@ -310,9 +307,6 @@ h5{
     margin-top: 20px;
     padding-bottom: 20px;
 }
-/* second row */
-/* TEST */
-
 .four-col{
     width:25%
 }
@@ -335,8 +329,24 @@ h5{
 .tb-style-l{
     border-left: 1px solid white;
 }
-
 /* Section middle end */
 
+/* Section bottom */
+.info-data{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.info-data .two-col-sx{
+    padding: 0% 7%;
+}
+.two-col-sx h2{
+    font-size: 40px;
+}
+.sponsor-set{
+    padding: 10px;
+    width: 100%;
+    display: block;
+}
+/* Section bottom end*/
 /* MAIN END */
 
