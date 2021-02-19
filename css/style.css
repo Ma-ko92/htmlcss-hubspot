@@ -355,7 +355,7 @@ h5{
 
 /* second row */
 .bottom-data{
-   width: 50%;
+   width: 40%;
     padding-bottom: 50px;
     position: relative;
 }
@@ -374,10 +374,16 @@ h5{
     height: 250px;
     width: auto;
     position: absolute;
-    bottom: 20%;
-    left: 140%;
+    bottom: 25%;
+    left: 180%;
 }
 /* second row end */
 /* Section bottom end*/
 /* MAIN END */
+
+/* FOOTER */
+.bg-footer{
+    background-color: #32495b;
+}
+/* FOOTER END*/
 
