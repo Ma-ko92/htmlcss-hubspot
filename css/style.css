@@ -178,7 +178,6 @@ h1{
 }
 .sec-top{
     background-color: #f4f9fd;
-    height: 650px;
 }
 .container-small img{
     margin: auto;
@@ -236,6 +235,9 @@ h5{
     color:  #33475b;
     text-align: center;
 }
+h5{
+    text-transform: uppercase;
+}
 .hub-crm-set p{
     margin-bottom: 10px;
     margin-top: 20px;
@@ -248,9 +250,49 @@ h5{
     margin-right: 15px;
 }
 /* third row */
+.bg-col{
+    margin-top: 30px;
+    background-color:lightgreen;
+}
 .three-col{
+    padding: 15px;
     width: 30%;
 }
+.three-col h3{
+    margin-top: 20px;
+}
+.three-col h5{
+    margin-bottom: 20px;
+}
+.three-col p{
+    text-align: center;
+}
+.divider{
+    color: gray;
+    margin: 40px 40px 20px 40px;
+}
+.centered{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.box-due{
+    background-color: lightsalmon;
+    
+    height: 400px;
+    border: 1px solid black;
+}
+.box-tre{
+    background-color: coral;
+    
+    height: 400px;
+    border: 1px solid black;
+}
+.due{
+    margin: 0px 5px;
+}
+
+
 /* TEST */
 
 /* Section top end */
