@@ -299,6 +299,7 @@ h5{
 }
 .text-table{
     padding-top: 30px;
+    text-align: center;
 }
 .text-table h2{
     text-align: center;
@@ -312,14 +313,28 @@ h5{
 /* second row */
 /* TEST */
 
-.a1{
-    width: 200px;
-    height: 200px;
-    background-color: cornflowerblue;
-    border: 1px solid blue;
-    text-align: center;
+.four-col{
+    width:25%
 }
-
+.text-table h2{
+    color: white;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+.entity{
+    text-align: center;
+    font-size: 20px;
+    vertical-align: middle;
+}
+.tb-style-b{
+    border-bottom: 1px solid white;
+}
+.tb-style-r{
+    border-right: 1px solid white;
+}
+.tb-style-l{
+    border-left: 1px solid white;
+}
 
 /* Section middle end */
 
