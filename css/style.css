@@ -176,7 +176,7 @@ h1{
     position: relative;
     text-align: center;
 }
-.sec-up-dwn{
+.section-up{
     background-color: #f4f9fd;
 }
 .top-sec{
@@ -288,7 +288,7 @@ h5{
 /* Section top end */
 
 /* Section middle */
-.sec-middle{
+.section-middle{
     background-image: linear-gradient(to right, rgb(78, 155, 255) , rgb(22, 236, 252));
 }
 .text-table >* {
@@ -332,6 +332,7 @@ h5{
 /* Section middle end */
 
 /* Section bottom */
+/* first row */
 .info-data{
     padding-top: 40px;
     padding-bottom: 40px;
@@ -342,11 +343,19 @@ h5{
 .two-col-sx h2{
     font-size: 40px;
 }
+.sponsor-box{
+    padding: 2% 9%;
+}
 .sponsor-set{
     padding: 10px;
     width: 100%;
     display: block;
 }
+/* first row end */
+
+/* second row */
+
+/* second row end */
 /* Section bottom end*/
 /* MAIN END */
 
