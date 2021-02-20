@@ -36,7 +36,7 @@ Body{
     background-color: #f4f9fd;
     height: 65px;
     border-bottom: 1px solid black;
-    position: fixed;
+    position:sticky;
     top: 0;
     left: 0;
     width:100%;
@@ -195,7 +195,6 @@ h2{
     margin-top: 20px;
     line-height: 20px;
 }
-
 /* second row */
 .bg-hub-crm{
     background-color: white;
@@ -291,6 +290,7 @@ h5{
 /* Section middle */
 .section-middle{
     background-image: linear-gradient(to right, rgb(78, 155, 255) , rgb(22, 236, 252));
+    padding-bottom: 30px;
 }
 .text-table >* {
     color: white;
@@ -306,6 +306,7 @@ h5{
     text-align: center;
     font-size: 12px;
     margin-top: 20px;
+    margin-bottom: 20px;
     padding-bottom: 20px;
 }
 .four-col{
@@ -313,7 +314,7 @@ h5{
 }
 .text-table h2{
     color: white;
-    font-size: 35px;
+    font-size: 20px;
     text-transform: uppercase;
 }
 .entity{
@@ -343,6 +344,7 @@ h5{
 }
 .two-col-sx h2{
     font-size: 40px;
+    text-align: left;
 }
 .sponsor-box{
     padding: 2% 9%;
@@ -356,7 +358,7 @@ h5{
 
 /* second row */
 .bottom-data{
-   width: 40%;
+    width: 40%;
     padding-bottom: 50px;
     position: relative;
 }
