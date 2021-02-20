@@ -36,10 +36,11 @@ Body{
     background-color: #f4f9fd;
     height: 65px;
     border-bottom: 1px solid black;
-    position: sticky;
+    position: fixed;
     top: 0;
     left: 0;
-    width:100%
+    width:100%;
+    z-index:1;
 }
 .two-col{
     width: 50%;
@@ -385,6 +386,7 @@ h5{
 .bg-footer{
     background-color: #32495b;
 }
+/* link */
 .text-footer{
     display: block;
     padding-top: 20px;
@@ -393,13 +395,53 @@ h5{
     font-size: 11px;
     font-weight: 600;
 }
-:any-link{
+.bg-footer a{
     text-decoration: none;
     color: white;
     font-size: 10px;
+    line-height: 20px;
 }
-.link-button{
+.bg-footer .link-button{
     color:#32495b;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 7px;
+}
+/* button and social */
+.link-button-set{
+    margin-top: 15px;
+}
+.link-button {
+    margin-top: 10px;
+}
+.link-set-footer li{
+    display: inline-block;
+    margin-right: 20px;
+    margin-top:10px;
+    margin-bottom:30px;
+}
+.link-set-footer{
+    margin-bottom: 30px;
+}
+/* language section */
+.lang-set{
+    margin-top: 30px;
+    text-align: center;
+}
+/* Credits */
+.logo-footer img{
+    width:15%;
+    padding-top: 2%;
+}
+.credit{
+    color: white;
+    font-size: 10px;
+    font-weight: 700;
+    
+}
+.ftr-leg{
+    text-align: right;
 }
 /* FOOTER END*/
 
