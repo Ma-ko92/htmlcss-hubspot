@@ -399,6 +399,7 @@ h5{
     text-decoration: none;
     color: white;
     font-size: 10px;
+    font-weight: 300;
     line-height: 20px;
 }
 .bg-footer .link-button{
@@ -422,12 +423,21 @@ h5{
     margin-bottom:30px;
 }
 .link-set-footer{
-    margin-bottom: 30px;
+    margin-bottom: 15px;
 }
 /* language section */
 .lang-set{
     margin-top: 30px;
     text-align: center;
+    position: relative;
+}
+.lang-set::after{
+    width: 100%;
+    position: absolute;
+    content: '';
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    top: 70%;
+    right:0%;
 }
 /* Credits */
 .logo-footer img{
