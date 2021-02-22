@@ -136,18 +136,21 @@ Body{
     width: 100%;
     height: 600px;
     background-image: url("../img/jumbotron.png");
-    background-position: 70% 10%;
+    background-position: bottom right;
     position: relative;
+    background-color: #fff5ee;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .jumbotron::after{
     content: "";
     background-color: #afebe4;
     border-top: 2px solid #33475b;
     border-bottom: 2px solid #33475b;
-    height: 65px;
+    height: 80px;
     width: 100%;
     position: absolute;
-    top: 100%;
+    top: 86%;
     left: 0;
 }
 .teaser{
@@ -289,7 +292,7 @@ h5{
 
 /* Section middle */
 .section-middle{
-    background-image: linear-gradient(to right, rgb(78, 155, 255) , rgb(22, 236, 252));
+    background-image: linear-gradient(to right, rgb(0, 168, 186) , rgb(0, 187, 166));
     padding-bottom: 30px;
 }
 .text-table >* {
